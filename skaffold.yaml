@@ -23,7 +23,7 @@ build:
   # here:
   # https://skaffold.dev/docs/concepts/#image-repository-handling
   tagPolicy:
-    gitCommit: {}
+    sha256: {}
   local:
     useBuildkit: false
 manifests:
